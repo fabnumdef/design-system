@@ -6,7 +6,9 @@ import {
 } from '@storybook/addon-knobs';
 
 import fnmaButton, { FULLWIDTH, OUTLINED, INVERTED } from '../../components/atoms/button.vue';
-import { COLORS, GRAYSCALE, STATES, TEXT } from '../../mixins/generic-modifiers';
+import {
+  COLORS, GRAYSCALE, STATES, TEXT,
+} from '../../mixins/generic-modifiers';
 
 storiesOf('Atoms/Button', module)
   .addDecorator(withKnobs)

@@ -39,5 +39,7 @@ export default {
 
 <style scoped lang="scss">
   @import "../../scss/head";
+  $button-color: $primary;
+
   @import "~bulma/sass/elements/button.sass";
 </style>
